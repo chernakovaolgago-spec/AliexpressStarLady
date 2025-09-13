@@ -29,4 +29,4 @@ if ($token !== $secret_key) {
 }
 
 $log_entry = "Valid request: ClickID=$clickid | Payout=$payout | OrderID=$orderid | Country=$country | Platform=$platform | ItemID=$item_id | Bonus=$new_buyer_bonus | IsNotProduct=$is_not_product | BaseRate=$base_commission_rate | OrderPlatform=$order_platform\n";
-file_put_contents($log_file, $log_entry, FILE_APPEND
+file_put_contents($log_file), $log_entry, FILE_APPEND
