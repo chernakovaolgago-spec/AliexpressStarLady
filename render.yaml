@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: aliexpress-postback
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
